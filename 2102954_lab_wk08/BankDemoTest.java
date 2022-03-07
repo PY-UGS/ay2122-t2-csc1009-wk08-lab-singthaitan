@@ -18,7 +18,7 @@ public class BankDemoTest {
                         System.out.print("Enter amount to be withdrawn: ");
                         double withdrawAmount = in.nextDouble();
                         checkingAccount.withdraw(withdrawAmount);
-                        System.out.println("Balance: " + checkingAccount.getBalance());
+                        System.out.println("The balance after withdraw is: $ " + checkingAccount.getBalance());
                         System.out.println("Please collect your card and cash.");
                         break;
                     } catch (InsufficientFundsException e) {
