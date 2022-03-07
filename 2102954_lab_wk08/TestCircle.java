@@ -20,7 +20,7 @@ public class TestCircle {
                 System.out.println("The diameter is " + circle.getDiameter());
             }
         } catch (InputMismatchException e) {
-            System.out.println("Exception caught: Input not valid " + e.getMessage());
+            System.out.println("Exception caught: Input not valid ");
         }
     }
 }
